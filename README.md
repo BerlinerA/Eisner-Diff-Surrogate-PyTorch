@@ -7,5 +7,5 @@ A PyTorch implementation of the continuous relaxation of the Eisner algorithm as
 * PyTorch 1.8.1
 
 ### Arguments
-1) `arc_scores` (Tensor): The arc-factored weights of dependencies
+1) `arc_scores` (Tensor): The arc-factored weights of dependencies.
 2) `hard` (bool): `True` for hard (valid) non-differentiable dependency trees, `False` for soft differentiable dependency trees.
